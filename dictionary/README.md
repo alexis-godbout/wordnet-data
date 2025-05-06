@@ -1,4 +1,4 @@
-# README
+# Dictionary
 
 This project requires an exhaustive list of adjectives and nouns to produce quality results so we're using [Wordnet](https://wordnet.princeton.edu/) data. Considering that Wordnet is a fullblown lexical database, we're trimming what we don't need via [scripts.js](./script.js).
 
