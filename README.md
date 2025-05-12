@@ -6,8 +6,8 @@ For reference, the Wordnet data structure is documented [here](https://wordnet.p
 
 ## Development
 
-1. Make sure that node.js is installed
-2. Navigate to the wordnet folder
+1. Make sure that Node.js is installed
+2. Navigate to the [src](./src/) folder
 2. Install the dependencies
 
 ```bash
