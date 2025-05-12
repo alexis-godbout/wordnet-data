@@ -7,8 +7,8 @@ import { chmod, mkdir, open, readdir, writeFile } from 'node:fs/promises';
 
 // Variables
 const DOWNLOAD_URL = 'https://wordnetcode.princeton.edu/wn3.1.dict.tar.gz';
-const FILES_TO_EXTRACT = ['dict/data.adj', 'dict/data.noun'];
-const OUTPUT_DIRECTORY = 'wordnet';
+const FILES_TO_EXTRACT = ['dict/data.adj', 'dict/data.adv', 'dict/data.noun', 'dict/data.verb'];
+const OUTPUT_DIRECTORY = '../data';
 
 // Functions
 function downloadAndExtractTarGz(url, fileList, outputDirectory) {
